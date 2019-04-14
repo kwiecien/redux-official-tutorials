@@ -1,7 +1,7 @@
 import React from 'react';
 import {createStore} from 'redux';
 import {render} from 'react-dom'
-import todoApp from 'reducers/reducers';
+import todoApp from './reducers/reducers';
 import {Provider} from "react-redux";
 import App from "./components/App";
 
